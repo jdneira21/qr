@@ -8,12 +8,8 @@ export default function PageEventScantQR() {
     <div className='flex flex-col gap-2 p-2'>
       <Scanner
         onScan={(result) => {
-          console.log(result)
           const x = result.find((r) => r.rawValue == 'dFAFdsfdsfd')
-          console.log(x)
-
           if (x?.rawValue == 'dFAFdsfdsfd') {
-            // alert('Evento encontrado')
             setResult('Marco Granados Neira')
           }
         }}
