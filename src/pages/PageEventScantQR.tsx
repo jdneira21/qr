@@ -6,11 +6,13 @@ import { TbSquareRoundedChevronLeftFilled } from 'react-icons/tb'
 
 export default function PageEventScantQR() {
   const navigate = useNavigate()
-  const [result, setResult] = useState('')
+  const [result, setResult] = useState('S')
 
   const navigateToEvent = () => {
-    navigate(`/event/`)
+    navigate(-1)
   }
+
+  // navigate
 
   return (
     <div className='flex flex-col gap-2 p-2'>
