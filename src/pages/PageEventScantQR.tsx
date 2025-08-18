@@ -2,7 +2,7 @@ import { Button } from '@mui/material'
 import { Scanner } from '@yudiel/react-qr-scanner'
 import { useState } from 'react'
 import { useNavigate } from 'react-router'
-import { TbSquareRoundedChevronLeftFilled, TbSquareRoundedCheckFilled } from 'react-icons/tb'
+import { TbSquareRoundedChevronLeftFilled } from 'react-icons/tb'
 
 export default function PageEventScantQR() {
   const navigate = useNavigate()
